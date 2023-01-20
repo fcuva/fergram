@@ -1,0 +1,1 @@
+*,*::after,*::before{box-sizing:inherit;margin:0;padding:0}html{font-size:62.5%}body{box-sizing:border-box}.container{display:grid;grid-template-columns:1fr repeat(8, minmax(-webkit-min-content, 14rem)) 1fr;grid-template-columns:1fr repeat(8, minmax(min-content, 14rem)) 1fr;grid-template-rows:8rem 100vh -webkit-max-content 30vh;grid-template-rows:8rem 100vh max-content 30vh}
