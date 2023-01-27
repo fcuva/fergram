@@ -1,0 +1,33 @@
+///////////////
+/// SASS Extend ==> %
+%heading {
+  font-weight: 400;
+  font-family: $font-primary;
+}
+
+.heading {
+  &-1 {
+    @extend %heading;
+    color: $color-secondary-light;
+
+    font-size: 7rem;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    line-height: 1.6;
+  }
+}
+
+.u-mb {
+  &-hg {
+    margin-bottom: 8rem;
+  }
+  &-bg {
+    margin-bottom: 4rem;
+  }
+  &-md {
+    margin-bottom: 3rem;
+  }
+  &-sm {
+    margin-bottom: 2rem;
+  }
+}

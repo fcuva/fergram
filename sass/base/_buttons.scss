@@ -1,0 +1,15 @@
+.btn {
+  display: inline-block;
+
+  &--link {
+    &:link,
+    &:visited {
+      text-decoration: none;
+    }
+
+    &:hover,
+    &:active {
+      color: transparent;
+    }
+  }
+}

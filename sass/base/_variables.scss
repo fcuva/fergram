@@ -1,0 +1,23 @@
+////////////////////////////////////
+////////////////////////////////////
+// https://color.adobe.com/create/color-wheel
+////////////////////////////////////
+/// COLORS
+/// lighter and darker colors will be applied with SASS
+
+$color-primary: #fade43;
+$color-secondary: #0e00a8;
+$color-secondary-light: #d1cef5;
+$color-gray-dark: #616161;
+$color-gray-light: #e0e0e0;
+
+$color-black: #000000;
+$color-white: #ffffff;
+
+////////////////////////////////////
+/// FONTS
+$font-primary: "Barlow Condensed", sans-serif;
+$font-display: "Satisfy", cursive;
+
+//
+$timing-function-easeInOutCubic: cubic-bezier(0.65, 0, 0.35, 1);

@@ -1,1 +1,7 @@
+@import "base/variables"; // must be first
 @import "base/base";
+@import "base/buttons";
+@import "base/typography";
+
+@import "layout/header";
+@import "layout/hero";

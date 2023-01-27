@@ -5,14 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,300;0,400;0,700;0,800;1,300&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Photogrammy</title>
   </head>
   <body class="container">
     <header class="header">
-      <nav class="header__menu">NAVIGATION menu</nav>
+      <!-- <img src="./img/logo.png" alt="Logo _MinPho" class="header__logo" /> -->
+      <p class="header__logo">ferGram</p>
+      <nav class="header__menu">
+        <ul class="header__menu-list">
+          <li class="header__menu-item">
+            <a href="#" class="header__menu-link">Photo Grid</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#" class="header__menu-link">About me</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#" class="header__menu-link">Keep in touch</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <section class="header__hero">HERO</section>
-    <main class="grid__photo">PHOTOS</main>
+    <section class="hero">
+      <section class="presentation">
+        <h1 class="heading-1 presentation__title u-mb-sm">
+          Welcome, I'm <span>Fer</span>
+        </h1>
+        <h2 class="presentation__description">
+          I am a photographer based in Mexico City and, I want to share my shots
+          with you.
+        </h2>
+      </section>
+      <a href="#photo" class="hero__btn btn btn--link">
+        <!-- svg.hero__btn-icon>use[xlink:href="./img/sprite.svg#icon-arrow-with-circle-down"] -->
+        <svg class="hero__btn-icon">
+          <use xlink:href="./img/sprite.svg#icon-arrow-with-circle-down"></use>
+        </svg>
+      </a>
+    </section>
+    <main class="grid__photo" id="photo">PHOTOS</main>
     <footer class="footer">Footer</footer>
   </body>
 
