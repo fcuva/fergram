@@ -9,7 +9,7 @@
 
   &__logo {
     @extend %logo;
-    border-top: 0.1rem solid $color-gray-light;
+    border-top: 0.1rem solid lighten($color-gray-light, 9%);
     color: $color-gray-dark;
     font-size: 4rem;
     padding-top: 3rem;
@@ -25,7 +25,7 @@
     margin: 4rem 8rem;
 
     &-icon {
-      fill: $color-secondary;
+      fill: $color-primary;
       height: 3rem;
       width: 3rem;
 

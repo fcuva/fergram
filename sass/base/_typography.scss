@@ -8,10 +8,10 @@
 .heading {
   &-1 {
     @extend %heading;
-    color: $color-secondary-light;
+    color: $color-gray-light;
 
     font-size: 7rem;
-    font-weight: 400;
+    font-weight: 300;
     letter-spacing: 0.2rem;
     line-height: 1.6;
   }
