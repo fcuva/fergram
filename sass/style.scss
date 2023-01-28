@@ -1,7 +1,12 @@
 @import "base/variables"; // must be first
+
+@import "abstracts/animations";
+@import "abstracts/includes";
+
 @import "base/base";
 @import "base/buttons";
 @import "base/typography";
 
+@import "layout/footer";
 @import "layout/header";
 @import "layout/hero";

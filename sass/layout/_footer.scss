@@ -1,0 +1,58 @@
+.footer {
+  grid-column: margin-start / margin-end;
+  grid-row: 4 / -1;
+
+  background-color: $color-white;
+  font-family: $font-primary;
+  padding: 4rem;
+  text-align: center;
+
+  &__logo {
+    @extend %logo;
+    border-top: 0.1rem solid $color-gray-light;
+    color: $color-gray-dark;
+    font-size: 4rem;
+    padding-top: 3rem;
+  }
+
+  &__socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__link {
+    margin: 4rem 8rem;
+
+    &-icon {
+      fill: $color-secondary;
+      height: 3rem;
+      width: 3rem;
+
+      transition: all 0.2s ease-out;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+
+  &__note {
+    color: $color-gray-dark;
+    font-size: 2rem;
+    text-transform: uppercase;
+
+    span {
+      animation: toggle 1s $timing-function-easeInOutCubic infinite;
+      color: red;
+      font-size: 2.3rem;
+      letter-spacing: 0.5rem;
+    }
+  }
+
+  &__copyright {
+    color: $color-gray-dark;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+  }
+}

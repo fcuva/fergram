@@ -30,11 +30,11 @@ body {
 .container {
   display: grid;
   // margin / 8 columns / margin
-  grid-template-columns: [margin-start] 1fr [center-start] repeat(
-      8,
-      [col-start] minmax(min-content, 14rem) [col-end]
-    ) [center-end] 1fr [margin-end];
+  grid-template-columns:
+    [margin-start] 1fr [center-start]
+    repeat(8, [col-start] minmax(min-content, 14rem) [col-end])
+    [center-end] 1fr [margin-end];
   // header / hero / photo-grid / footer
-  grid-template-rows: 8rem 92vh max-content 30vh;
+  grid-template-rows: 8rem 92vh max-content 40vh;
 }
 ////////////////////////////////////

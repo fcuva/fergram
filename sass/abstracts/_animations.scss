@@ -1,0 +1,41 @@
+/////////////////////////////////////
+/// Animations for &__title and &__description
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-20rem);
+  }
+  70% {
+    opacity: 0.7;
+    transform: translateX(10rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(20rem);
+  }
+  70% {
+    opacity: 0.7;
+    transform: translateX(-10rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes toggle {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
