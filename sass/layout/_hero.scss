@@ -19,6 +19,8 @@
       rgba($color-black, 0.5),
       rgba($color-black, 0.5),
       rgba($color-black, 0.5),
+      rgba($color-black, 0.5),
+      rgba($color-black, 0.5),
       rgba($color-black, 0.4),
       rgba($color-black, 0.4),
       rgba($color-black, 0.4),
@@ -39,11 +41,12 @@
       rgba($color-white, 0.9),
       rgba($color-white, 0.95),
       rgba($color-white, 1),
+      rgba($color-white, 1),
       rgba($color-white, 1)
     ),
     url("../img/mish_woods.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top;
 
   position: relative;
 
